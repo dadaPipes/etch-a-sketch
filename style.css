@@ -1,20 +1,26 @@
-.square {
+.grid {
     display: flex;
     flex-direction: column;
-    width: 30em;
-    height: 30em;
     border-style: solid; 
     border-color: red;
     background-color: aqua;
 }
 
-.square__row {
+.grid__row {
     display: flex;
     flex-direction: row;
 }
 
-.square__column {
-    width: calc(30em / 16);
-    height: calc(30em / 16);
+.grid__column {
     background-color: rgb(2, 11, 70);
+}
+
+.sizeButton {
+    color: cornflowerblue;
+    background-color: darkblue;
+    border-style: solid;
+    border-color: black;
+    height: 2em;
+    width: auto;
+
 }
